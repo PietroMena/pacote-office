@@ -1,0 +1,55 @@
+.capa {
+    text-align: center;
+    font-size: 50px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.palavra{
+    text-align:start;
+    color:red;
+    font-size: 30px;
+}
+
+.dn{
+ text-align: start;
+ color:black;
+ font-size:25px;
+}
+
+.img{
+    
+}
+
+.funim{
+    background-image:radial-gradient(aqua,blue,aqua,blue);
+    height: 50;
+    width: 30;
+
+}
+.funim:hover {
+  opacity: 0.5;
+  
+}
+
+.funim2{
+    background-image:radial-gradient(greenyellow, green, greenyellow, green);
+    width: 30;
+    height: 50;
+
+}
+.funim2:hover {
+  opacity: 0.5;
+}
+
+.funim3{
+    background-image:radial-gradient(purple, pink,purple, pink);
+    width: 30;
+    height: 50;
+
+}
+  .funim3:hover {
+    opacity: 0.5;
+  }
+

@@ -1,0 +1,38 @@
+
+.capa {
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.palavra{
+    text-align:start;
+    color:black;
+    font-size: 30px;
+}
+
+.dn{
+ text-align: start;
+ color:black;
+ font-size:25px;
+}
+
+.fundo{
+  
+    justify-content: start;
+    background-image:linear-gradient(to left,#FF0000 ,	#FF4500,#FF6347,#FF8C00);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
+    
+}
+
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+ }
+   100%{
+    background-position-x: 100%;
+   }  
+
+ }
